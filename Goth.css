@@ -1,0 +1,183 @@
+/* ===== GENERAL ===== */
+
+body {
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== HEADER ===== */
+
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #111111;
+}
+
+header h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+    color: #ffffff;
+}
+
+header h2 {
+    font-weight: normal;
+    color: #a88c5d;
+    letter-spacing: 2px;
+}
+
+/* ===== NAVIGATION ===== */
+
+nav {
+    text-align: center;
+    padding: 20px;
+    background-color: #151515;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: #d4c29a;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* ===== SECTIONS ===== */
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 30px;
+}
+
+section h2 {
+    text-align: center;
+    color: #d4c29a;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+/* ===== PARAGRAPHS ===== */
+
+p {
+    font-size: 1.05rem;
+    color: #d8d8d8;
+}
+
+/* ===== PORTFOLIO IMAGES ===== */
+
+figure {
+    text-align: center;
+    margin: 50px auto;
+}
+
+figure img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    box-shadow: 0 0 25px rgba(0,0,0,.8);
+}
+
+figcaption {
+    margin-top: 12px;
+    color: #a88c5d;
+    font-style: italic;
+}
+
+/* ===== LISTS ===== */
+
+ul {
+    max-width: 500px;
+    margin: auto;
+}
+
+li {
+    padding: 8px 0;
+}
+
+/* ===== BOOKING SECTION ===== */
+
+#booking {
+    background-color: #111111;
+    border-top: 1px solid #2a2a2a;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+/* ===== BUTTONS ===== */
+
+button,
+input[type="submit"] {
+    background-color: #6b1f1f;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #8b2929;
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background-color: #080808;
+    color: #777;
+}
+
+/* ===== DIVIDERS ===== */
+
+hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(
+        to right,
+        transparent,
+        #6b1f1f,
+        transparent
+    );
+}
+
+/* ===== LINKS ===== */
+
+a {
+    color: #c9b27a;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+}
